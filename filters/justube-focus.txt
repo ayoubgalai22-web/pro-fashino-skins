@@ -1,7 +1,7 @@
 ! Title: Justube Focus — إخفاء Shorts وعناصر التشتيت من YouTube الحقيقي
 ! Title (en): Justube Focus — Hide YouTube Shorts & distraction elements
 ! Description: قائمة فلاتر مجمّعة لأداة uBlock Origin تخفي YouTube Shorts من الرئيسية والاشتراكات والبحث والقنوات والإشعارات وشريط التنقل، على الحاسوب (www.youtube.com) والهاتف (m.youtube.com)، مع الحفاظ على كل وظائف YouTube الأصلية.
-! Version: 2026.10.09
+! Version: 2026.10.09.2
 ! Last modified: 2026-10-09
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/ayoubgalai22-web/pro-fashino-skins
@@ -146,6 +146,10 @@ m.youtube.com##ytm-reel-shelf-renderer:has(.reel-shelf-title-wrapper .yt-core-at
 ! --- إخفاء روابط "الرائج/استكشاف" من الشريط الجانبي ---
 !www.youtube.com##ytd-guide-entry-renderer:has(a[href="/feed/trending"])
 !www.youtube.com##ytd-guide-entry-renderer:has(a[href="/feed/explore"])
+
+! --- التركيز الأقصى: إخفاء شبكة الرئيسية بالكامل ---
+! (اجعل /feed/subscriptions صفحتك الافتتاحية — انظر docs/ar/06-study-workflow.md)
+!www.youtube.com##ytd-browse[page-subtype="home"] ytd-rich-grid-renderer
 
 ! --- إخفاء فيديوهات أقل من ~70 ثانية من اقتراحات صفحة المشاهدة على الهاتف فقط ---
 ! (تقريبي حسب المدة — قد يخفي دروسًا قصيرة مفيدة، لذا هو اختياري)

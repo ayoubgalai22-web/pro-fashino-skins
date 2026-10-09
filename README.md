@@ -26,6 +26,7 @@
 
 ثم نفّذ **قائمة اختبار القبول**: [`docs/ar/04-testing-checklist.md`](docs/ar/04-testing-checklist.md) (~15 دقيقة، 31 بندًا).
 وعند أي عطل: [`docs/ar/05-troubleshooting.md`](docs/ar/05-troubleshooting.md).
+ولتحويل YouTube نفسه إلى مكتبة دراستك ومصدرك الإخباري (قوائم لكل مادة، الاشتراكات كرئيسية، الاستكمال، المراجعة): [`docs/ar/06-study-workflow.md`](docs/ar/06-study-workflow.md).
 
 ## بنية المستودع
 
@@ -35,8 +36,10 @@ filters/justube-focus.txt          قائمة uBlock Origin مجمّعة (52 ق�
 presets/blocktube-recommended.md   إعداد BlockTube: كلمات، قنوات، مدة، دالتا حظر متقدم مكتوبتان ومراجعتان
 userscripts/justube-focus.user.js  اختياري: تحويل /shorts/→/watch داخل SPA، إطفاء autoplay، إخفاءات CSS
 scripts/validate-filters.mjs       مدقق صياغة ثابت للقائمة (node — بلا تبعيات)
-docs/ar/                           الأدلة الخمسة بالعربية (رسمية، ReVanced، متصفح، اختبار، صيانة)
+docs/ar/                           الأدلة الستة بالعربية (رسمية، ReVanced، متصفح، اختبار، صيانة،
+                                   + سير الدراسة والأخبار بميزات YouTube الأصلية)
 docs/SOURCES.md                    كل مصدر وترخيصه وحالته وتاريخ التحقق (2026-10-09) + تعديلاتنا المسندة
+.github/workflows/check.yml        فحص آلي (CI) لصياغة الفلاتر والسكريبت عند كل push/PR
 ```
 
 ## الفحص الآلي

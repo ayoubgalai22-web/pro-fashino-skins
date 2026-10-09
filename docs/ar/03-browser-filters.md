@@ -30,9 +30,8 @@
 2. تبويب **Filter lists / قوائم الفلاتر** → أسفل الصفحة **Import / استيراد**.
 3. الصق رابط القائمة الخام من هذا المستودع (للحصول على تحديث تلقائي كل 4 أيام):
    ```
-   https://raw.githubusercontent.com/ayoubgalai22-web/pro-fashino-skins/arena/c5b743f1-pro-fashino-skins/filters/justube-focus.txt
+   https://raw.githubusercontent.com/ayoubgalai22-web/pro-fashino-skins/main/filters/justube-focus.txt
    ```
-   (بعد دمج الفرع في main بدّل `arena/c5b743f1-pro-fashino-skins` بـ `main`.)
    أو افتح الملف محليًا وانسخ محتواه كاملًا إلى **My filters / فلاتري**.
 4. **طبّق التغييرات (Apply changes)** ثم أعد تحميل youtube.com بالكامل.
 5. **للتحصين ضد تغييرات YouTube** اشترك أيضًا في القائمتين الأصليتين المُصانتين
