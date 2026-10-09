@@ -1,0 +1,13 @@
+{
+  "name": "justube-focus-kit",
+  "version": "1.0.0",
+  "description": "Justube Focus Kit — filter lists, presets, userscript and Arabic guides that turn the REAL YouTube (app + website) into a focus-first learning experience. No new app, no data collection, no dependencies.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/validate-filters.mjs",
+    "check": "node scripts/validate-filters.mjs && node --check userscripts/justube-focus.user.js"
+  },
+  "license": "MIT",
+  "dependencies": {}
+}
